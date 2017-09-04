@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EstudoaAPI</string>
+
+    <string-array name="tipochamado">
+
+        <item>Troca de Aparelho</item>
+        <item>Nova Instalação</item>
+        <item>Retirada de Aparelho</item>
+    </string-array>
+</resources>

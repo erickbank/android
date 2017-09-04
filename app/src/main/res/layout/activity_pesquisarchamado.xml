@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.fiap.estudoapi.estudoaapi.pesquisarchamado"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/lblChamados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chamados" />
+
+    <EditText
+        android:id="@+id/txtcodigof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Codigo Funcionario"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnpesquisar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesquisar"
+        android:onClick="pesquisarchamado"/>
+
+    <ListView
+        android:id="@+id/lvchamados"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
